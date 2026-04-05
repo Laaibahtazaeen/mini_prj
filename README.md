@@ -1,4 +1,4 @@
-# 🛡️ Phishing URL Detector
+#  Phishing URL Detector
 
 A machine learning web app that detects phishing URLs using LightGBM.  
 Trained on 520,000+ real phishing and legitimate URLs.  
@@ -28,7 +28,7 @@ phishing_detector/
 
 ---
 
-## ⚙️ Setup
+##  Setup
 
 ### 1. Install dependencies
 ```bash
@@ -53,7 +53,7 @@ Open **http://localhost:5000** in browser
 
 ---
 
-## 🌐 Deployment
+##  Deployment
 
 ### Option A — Local (default)
 `python 5_app.py` uses **Waitress** (production WSGI server).  
@@ -75,7 +75,7 @@ Then `heroku create` → `git push heroku main`
 
 ---
 
-## 📊 Why Small Dataset?
+##  Why Small Dataset?
 
 | | Small (520K) | Big (5.2M) |
 |---|---|---|
@@ -87,7 +87,7 @@ The small dataset gives excellent accuracy and trains in minutes. Only use the b
 
 ---
 
-## 🐛 Common Issues
+##  Common Issues
 
 **`FileNotFoundError: dataset/small_dataset/train.txt`**  
 → Make sure `.txt` files are inside `dataset/small_dataset/`
